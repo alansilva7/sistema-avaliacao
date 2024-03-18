@@ -1,0 +1,16 @@
+/* Variaveis com as cores */
+:root {
+    --primary-color: #ffcc00
+    --secondary-color: #ccc
+}
+
+/* Não exibir o input radio */
+.estrelas input[type=radio] {
+    display: none;
+}
+
+/* Criar as estrelas preenchidas de amarelo */
+.estrelas label i.opcao.fa:before{
+    content: '\f005';
+    color: #ffcc00;
+}
